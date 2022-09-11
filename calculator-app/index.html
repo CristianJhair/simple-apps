@@ -14,11 +14,11 @@
         <form id="form1">
             <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Operator A</label>
-            <input type="number" class="form-control" name="operando1">
+            <input type="number" class="form-control" name="operator1">
             </div>
             <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Operator B</label>
-            <input type="number" class="form-control" name="operando2">
+            <input type="number" class="form-control" name="operator2">
             </div>
         </form>
         <button type="submit" class="btn btn-primary" id="sum">Sum</button>
@@ -27,51 +27,6 @@
         <button type="submit" class="btn btn-primary" id="div">Divide</button>
         <div id="result"></div>
     </div>
-    <script>  
-     
-      document.getElementById("sum").addEventListener("click", sum);
-      document.getElementById("sub").addEventListener("click", sub);
-      document.getElementById("mul").addEventListener("click", mul);
-      document.getElementById("div").addEventListener("click", div);
-        
-      function sum() {
-          let formnumbers=document.forms['form1'];
-          let value1=formnumbers["operando1"]; 
-          let value2=formnumbers["operando2"];
-          let result=parseFloat(value1.value)+parseFloat(value2.value);
-          if(isNaN(result))
-            result='You must spicify operators'
-          document.getElementById("result").innerHTML=`Result: ${result}`;
-        }
-
-      function sub() {
-          let formnumbers=document.forms['form1'];
-          let value1=formnumbers["operando1"]; 
-          let value2=formnumbers["operando2"];
-          let result=parseFloat(value1.value)-parseFloat(value2.value);
-          if(isNaN(result))
-            result='You must spicify operators'
-          document.getElementById("result").innerHTML=`Result: ${result}`;
-        }
-        function mul() {
-          let formnumbers=document.forms['form1'];
-          let value1=formnumbers["operando1"]; 
-          let value2=formnumbers["operando2"];
-          let result=parseFloat(value1.value)*parseFloat(value2.value);
-          if(isNaN(result))
-            result='You must spicify operators'
-          document.getElementById("result").innerHTML=`Result: ${result}`;
-      }
-      function div() {
-          let formnumbers=document.forms['form1'];
-          let value1=formnumbers["operando1"]; 
-          let value2=formnumbers["operando2"];
-          let result=parseFloat(value1.value)/parseFloat(value2.value);
-          if(isNaN(result))
-            result='You must spicify operators'
-          document.getElementById("result").innerHTML=`Result: ${result}`;
-      }
-      
-    </script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
