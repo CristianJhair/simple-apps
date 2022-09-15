@@ -1,0 +1,14 @@
+nav a{
+    width: fit-content; 
+    border-radius: 10%; 
+    border: 2px solid white; 
+    display: flex; 
+    text-decoration: none; 
+    font-weight: bold; 
+    align-items: center; 
+    padding: 5px;
+  }
+  span{
+    color:blue;
+    font-size: 140%;
+  }

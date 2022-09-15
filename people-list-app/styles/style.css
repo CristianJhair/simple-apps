@@ -2,13 +2,27 @@ html {
     background-color: #2196f3;
     min-height: 1000px;
     font-family: "helvetica neue";
-    background: url(fondo.png), #2196f3;
-    background: url(fondo.png),
+    background: url(../images/fondo.png), #2196f3;
+    background: url(../images/fondo.png),
       -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
-    background: url(fondo.png),
+    background: url(../images/fondo.png),
       linear-gradient(to left, #2196f3, #009688);
   }
   
+  nav a{
+    width: fit-content; 
+    border-radius: 10%; 
+    border: 2px solid white; 
+    display: flex; 
+    text-decoration: none; 
+    font-weight: bold; 
+    align-items: center; 
+    padding: 5px;
+  }
+  span{
+    color:rgba(190, 242, 185, 0.933);
+    font-size: 140%;
+  }
   h1 {
     color: #fff;
     padding: 10px;

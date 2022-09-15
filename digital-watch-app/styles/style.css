@@ -1,0 +1,36 @@
+nav a{
+    width: fit-content; 
+    border-radius: 10%; 
+    border: 2px solid white; 
+    display: flex; 
+    text-decoration: none; 
+    font-weight: bold; 
+    align-items: center; 
+    padding: 5px;
+  }
+  span{
+    color:blue;
+    font-size: 140%;
+  }
+.reloj{
+    font-family: sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #333;
+    color: #fff;
+}
+.reloj-contenedor{
+    background:#036FD5;
+    padding: 25px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+#fecha{
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+.animar{
+    border: rgb(0, 0, 0) 2px solid;
+}
