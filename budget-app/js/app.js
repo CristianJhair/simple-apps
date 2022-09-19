@@ -1,17 +1,20 @@
-const ingresos = [
-    new Ingreso('Salario', 2100.00),
-    new Ingreso('Venta coche', 1500)
-];
+const ingresos = [];
 
-const egresos = [
-    new Egreso('Renta departamento', 900),
-    new Egreso('Ropa', 400)
-];
+const egresos = [];
+
+let firstResult =()=>{
+  if (ingresos=='' || egresos=='') {
+    document.getElementById('lista-ingresos').innerHTML=`<div class="elemento_valor" style="font-weight:bold; font-size: 15px">Add some incomes...</div>`
+    document.getElementById('lista-egresos').innerHTML=`<div class="elemento_valor" style="font-weight:bold; font-size: 15px">Add some expenses...</div>`
+    document.getElementById('porcentaje').innerHTML=`0.0%`
+  }
+}
 
 let cargarApp = ()=>{
     cargarCabecero();
     cargarIngresos();
     cargarEgresos();
+    firstResult()
 }
 
 let totalIngresos = ()=>{
