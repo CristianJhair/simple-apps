@@ -1,3 +1,3 @@
-# Simple apps
+# Vanilla JS apps
 
-Hi! Here you have some simple applications based on Javascript, hope you enjoy it. If you have any doubts or questions, just let me know: cristianjhair2000@gmail.com
+Hi! Here you have 4 Vanilla JS apps, hope you enjoy it. If you have any doubts or questions, just let me know: cristianjhair2000@gmail.com
